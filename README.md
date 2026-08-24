@@ -6,4 +6,4 @@ OC 是指的是 **open character** 吗? 大概是吧
 
 ## 协议
 
-如你所见, 是 [MIT](./LICENSE)
+默认为 [MIT](./LICENSE), 否则为目录内对应的协议
