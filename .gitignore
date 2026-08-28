@@ -37,6 +37,8 @@ hs_err_pid*
 
 # 临时 clone / 临时目录
 tmp/
+models/
+output/
 
 # Python 虚拟环境
 .venv/
