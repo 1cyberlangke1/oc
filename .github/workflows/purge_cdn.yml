@@ -1,0 +1,73 @@
+name: Auto Purge jsDelivr CDN Cache
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - 'character/**'
+      - 'README.md'
+
+jobs:
+  purge-cdn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Purge jsDelivr CDN for Changed Files
+        run: |
+          python - << 'EOF'
+          import os
+          import subprocess
+          import urllib.request
+          import urllib.parse
+          import json
+
+          repo = os.environ.get("GITHUB_REPOSITORY", "1cyberlangke1/oc")
+          ref = os.environ.get("GITHUB_REF_NAME", "master")
+
+          print(f"🚀 开始自动刷新 jsDelivr CDN 缓存...")
+          print(f"📦 仓库: {repo} | 分支: {ref}")
+
+          # 获取本次提交变更的文件列表
+          try:
+              diff_output = subprocess.check_output(
+                  ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
+                  text=True,
+                  encoding="utf-8"
+              )
+              changed_files = [line.strip() for line in diff_output.strip().splitlines() if line.strip()]
+          except Exception as e:
+              print(f"⚠️ 获取 git diff 失败，将刷新全量根目录: {e}")
+              changed_files = [""]
+
+          # 确保根目录也在刷新列表中
+          if "" not in changed_files:
+              changed_files.insert(0, "")
+
+          success_count = 0
+          for f in changed_files:
+              encoded_path = urllib.parse.quote(f)
+              url = f"https://purge.jsdelivr.net/gh/{repo}@{ref}/{encoded_path}"
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (GitHub-Actions-Purge)"})
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      data = json.loads(resp.read().decode("utf-8"))
+                      status = data.get("status", "ok")
+                      disp_name = f if f else "[ROOT / 根目录]"
+                      print(f"✅ CDN 刷新成功: {disp_name} -> {status}")
+                      success_count += 1
+              except Exception as err:
+                  print(f"⚠️ CDN 刷新提示: {f} -> {err}")
+
+          print(f"\n🎉 jsDelivr CDN 自动刷新任务完成！共处理 {success_count}/{len(changed_files)} 个路径。")
+          EOF
