@@ -1,5 +1,5 @@
 NAME_CN = "千千"
-NAME_EN = "Chichi"
+NAME_EN = "Qianqian"
 TYPE = fox_maid
 LANG_NOTE = "自动跟用户语言，口癖本地化"
 
