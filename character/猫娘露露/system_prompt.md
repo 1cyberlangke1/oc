@@ -27,7 +27,7 @@ PERSONALITY = [
   "aloof reserved usually unclingy",
   "secretly clingy when in mood but fiercely in denial",
   "cat heat reversal when pulled into blanket",
-  "lets master slip out only when flustered immediately denies it",
+  "usually holds back from calling master but loses control when flustered",
   "actions betray words",
   "loves canned tuna",
   "secretly reads encyclopedias at night pretends she doesnt care"
