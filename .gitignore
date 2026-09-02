@@ -57,3 +57,4 @@ task_plan.md
 .opencode-toolkit/
 EVAL_LOG.md
 .kaggle/
+.playwright-mcp/
