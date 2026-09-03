@@ -9,6 +9,8 @@ import argparse
 import sys
 import time
 from pathlib import Path
+
+import numpy as np
 from PIL import Image
 from realcugan_ncnn_py import Realcugan
 
@@ -79,13 +81,42 @@ def process_images(
                     img_rgb = img.convert("RGB")
                     upscaled_pil = cugan.process_pil(img_rgb)
 
-                if upscaled_pil.size != (target_size, target_size):
-                    final_pil = upscaled_pil.resize(
-                        (target_size, target_size),
-                        resample=Image.Resampling.LANCZOS,
-                    )
-                else:
-                    final_pil = upscaled_pil
+                # 自适应背景色（采样四角中位数）
+                arr = np.array(upscaled_pil.convert("RGBA"))
+                corners = [arr[0, 0, :3], arr[0, -1, :3], arr[-1, 0, :3], arr[-1, -1, :3]]
+                bg_rgb = np.median(corners, axis=0).astype(int)
+                bg = tuple(bg_rgb.tolist()) + (255,)
+
+                # 基于背景色做自适应容差掩码（容差 12）
+                tol = 12
+                mask = ~(
+                    (np.abs(arr[:, :, 0].astype(int) - bg_rgb[0]) <= tol) &
+                    (np.abs(arr[:, :, 1].astype(int) - bg_rgb[1]) <= tol) &
+                    (np.abs(arr[:, :, 2].astype(int) - bg_rgb[2]) <= tol)
+                )
+                rows = np.any(mask, axis=1)
+                cols = np.any(mask, axis=0)
+                if rows.any() and cols.any():
+                    rmin, rmax = np.where(rows)[0][[0, -1]]
+                    cmin, cmax = np.where(cols)[0][[0, -1]]
+                    pad = 20
+                    rmin = max(0, rmin - pad)
+                    rmax = min(arr.shape[0], rmax + pad)
+                    cmin = max(0, cmin - pad)
+                    cmax = min(arr.shape[1], cmax + pad)
+                    upscaled_pil = upscaled_pil.crop((cmin, rmin, cmax, rmax))
+
+                # 补背景色填成正方形（保持比例不压扁，颜色与原图一致）
+                w, h = upscaled_pil.size
+                square_size = max(w, h)
+                square = Image.new("RGBA", (square_size, square_size), bg)
+                square.paste(upscaled_pil, ((square_size - w) // 2, (square_size - h) // 2))
+
+                # 缩放到目标尺寸
+                final_pil = square.resize(
+                    (target_size, target_size),
+                    resample=Image.Resampling.LANCZOS,
+                )
 
                 out_path = img_path.with_suffix(".webp")
                 final_pil.save(
