@@ -31,7 +31,14 @@
     },
     "parallel7": {
       "loop": true,
-      "bones": {}
+      "bones": {
+        "OC_LeftHeldItemScale": {
+          "scale": 1.0
+        },
+        "OC_RightHeldItemScale": {
+          "scale": 1.0
+        }
+      }
     }
   }
 }

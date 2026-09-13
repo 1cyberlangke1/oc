@@ -14,35 +14,47 @@
   },
   "clothed_widths_m": {
     "chest": 0.2966658925272331,
-    "waist": 0.27589928005032677,
+    "waist": 0.2135994426196078,
     "hips": 0.30793168591434317
   },
   "head_scale": 0.5443678160919541,
   "ear_length_cm": 11,
+  "held_item_scale": 0.8222222,
+  "neck_fit": {
+    "neck_clearance_cm": 2.654,
+    "shoulder_height_m": 1.104726,
+    "upper_torso_scale_y": 0.975429
+  },
+  "leg_fit": {
+    "thigh_width_cm": 13.46,
+    "knee_width_cm": 9.15,
+    "calf_width_cm": 11.04,
+    "ankle_width_cm": 6.87
+  },
   "proportions": {
     "crown_to_neck_fraction": 0.25,
     "hip_height_fraction": 0.48,
     "knee_height_fraction": 0.255
   },
-  "cube_count": 196,
-  "bone_count": 82,
+  "cube_count": 357,
+  "bone_count": 88,
   "texture_size": [
-    128,
+    255,
     128
   ],
-  "measurement_note": "身高量至头顶，耳和头饰另计；围度反推身体截面，服装另留余量喵",
+  "measurement_note": "身高量至头壳发顶，耳、呆毛和头饰另计；围度反推身体截面，服装另留余量喵",
   "verified_crown_height_m": 1.48,
   "verified_floor_m": 0.0,
   "geometry_bounds_m": {
     "min": [
-      -0.34231042861938477,
+      -0.3395192623138428,
       -0.15820688009262085,
       0.0
     ],
     "max": [
-      0.34231042861938477,
-      0.4151972532272339,
-      1.514491319656372
+      0.3395192623138428,
+      0.5108169913291931,
+      1.5190469026565552
     ]
   }
 }
