@@ -1,0 +1,32 @@
+{
+  "id": "nana",
+  "name": "奈奈 · 暖棕猫猫",
+  "measurements_cm": {
+    "height": 152,
+    "chest": 78,
+    "waist": 54,
+    "hips": 80
+  },
+  "hair_style": "long",
+  "ears": "cat",
+  "tail": "cat",
+  "outfit": "hoodie",
+  "eye_style": "soft",
+  "ear_height_cm": 12,
+  "palette": {
+    "hair": "#59423c",
+    "hair_shadow": "#332b2d",
+    "hair_light": "#977366",
+    "skin": "#f8e3dc",
+    "eyes": "#a97851",
+    "cloth": "#363940",
+    "cloth_shadow": "#23262d",
+    "trim": "#77757b",
+    "accent": "#c4a68c"
+  },
+  "proportions": {
+    "crown_to_neck_fraction": 0.245,
+    "hip_height_fraction": 0.465,
+    "knee_height_fraction": 0.247
+  }
+}

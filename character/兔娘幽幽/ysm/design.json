@@ -1,0 +1,32 @@
+{
+  "id": "yuyu",
+  "name": "幽幽 · 雾粉晚安兔",
+  "measurements_cm": {
+    "height": 135,
+    "chest": 65,
+    "waist": 46,
+    "hips": 70
+  },
+  "hair_style": "messy",
+  "ears": "rabbit",
+  "tail": "puff",
+  "outfit": "nightshirt",
+  "eye_style": "tired",
+  "ear_height_cm": 18,
+  "palette": {
+    "hair": "#d99caa",
+    "hair_shadow": "#ac778e",
+    "hair_light": "#f2c5ca",
+    "skin": "#f7e7e7",
+    "eyes": "#b75a85",
+    "cloth": "#eee9ee",
+    "cloth_shadow": "#c9c4d5",
+    "trim": "#e6b6c3",
+    "accent": "#c58fa4"
+  },
+  "proportions": {
+    "crown_to_neck_fraction": 0.268,
+    "hip_height_fraction": 0.435,
+    "knee_height_fraction": 0.23
+  }
+}

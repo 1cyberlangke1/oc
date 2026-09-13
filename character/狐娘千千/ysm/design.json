@@ -1,0 +1,32 @@
+{
+  "id": "qianqian",
+  "name": "千千 · 蜜橘狐女仆",
+  "measurements_cm": {
+    "height": 180,
+    "chest": 104,
+    "waist": 60,
+    "hips": 108
+  },
+  "hair_style": "side_ponytail",
+  "ears": "fox",
+  "tail": "fox",
+  "outfit": "maid",
+  "eye_style": "gentle",
+  "ear_height_cm": 17,
+  "palette": {
+    "hair": "#e99659",
+    "hair_shadow": "#b96343",
+    "hair_light": "#ffc28a",
+    "skin": "#f9dfcd",
+    "eyes": "#e4a33b",
+    "cloth": "#303139",
+    "cloth_shadow": "#1e242f",
+    "trim": "#f7efe4",
+    "accent": "#b8906a"
+  },
+  "proportions": {
+    "crown_to_neck_fraction": 0.22,
+    "hip_height_fraction": 0.515,
+    "knee_height_fraction": 0.275
+  }
+}

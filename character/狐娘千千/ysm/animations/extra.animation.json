@@ -1,0 +1,943 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "neutral": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFacePout": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            0.0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            0.0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "happy": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            -0.15148137931034483
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFacePout": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            1.06,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            0.1456551724137931,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            1.06,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            0.1456551724137931,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "shy": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            -0.15148137931034483
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFacePout": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            0.85,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            0.08156689655172415,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -11
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            -0.0699144827586207,
+            -0.10487172413793104,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            0.85,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            0.08156689655172415,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            11
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0.0699144827586207,
+            -0.10487172413793104,
+            0
+          ]
+        }
+      }
+    },
+    "hurt": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            -0.15148137931034483
+          ]
+        },
+        "OCFacePout": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            0.65,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            -0.0699144827586207,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            17
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            0.65,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            -0.0699144827586207,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -17
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "pout": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFacePout": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            -0.15148137931034483
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            0.84,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            -0.10487172413793104,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -20
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            0.84,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            -0.10487172413793104,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            20
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "surprised": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFacePout": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            -0.15148137931034483
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            1.25,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            0.34957241379310344,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            1.25,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            0.34957241379310344,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "sleepy": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFacePout": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            -0.15148137931034483
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            0.28,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            -0.3787034482758621,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            0.28,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            -0.3787034482758621,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "wave": {
+      "loop": true,
+      "animation_length": 0.6,
+      "bones": {
+        "OCFaceNeutral": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHappy": {
+          "scale": 1,
+          "position": [
+            0,
+            0,
+            -0.15148137931034483
+          ]
+        },
+        "OCFaceShy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceHurt": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFacePout": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSurprised": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "OCFaceSleepy": {
+          "scale": 0,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftEyelid": {
+          "scale": [
+            1,
+            1.06,
+            1
+          ]
+        },
+        "LeftEyebrow": {
+          "position": [
+            0,
+            0.1456551724137931,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "LeftPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightEyelid": {
+          "scale": [
+            1,
+            1.06,
+            1
+          ]
+        },
+        "RightEyebrow": {
+          "position": [
+            0,
+            0.1456551724137931,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightPupil": {
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        "RightArm": {
+          "rotation": [
+            -15,
+            0,
+            105
+          ]
+        },
+        "RightForeArm": {
+          "rotation": {
+            "0": [
+              -20,
+              0,
+              -12
+            ],
+            ".3": [
+              -20,
+              0,
+              12
+            ],
+            ".6": [
+              -20,
+              0,
+              -12
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "parallel0": {
+      "loop": true,
+      "bones": {}
+    },
+    "parallel1": {
+      "loop": true,
+      "bones": {}
+    },
+    "parallel2": {
+      "loop": true,
+      "bones": {}
+    },
+    "parallel3": {
+      "loop": true,
+      "bones": {}
+    },
+    "parallel4": {
+      "loop": true,
+      "bones": {}
+    },
+    "parallel5": {
+      "loop": true,
+      "bones": {}
+    },
+    "parallel6": {
+      "loop": true,
+      "bones": {}
+    },
+    "parallel7": {
+      "loop": true,
+      "bones": {}
+    }
+  }
+}

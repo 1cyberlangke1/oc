@@ -1,0 +1,53 @@
+{
+  "spec": 2,
+  "metadata": {
+    "name": "千千 · 蜜橘狐女仆",
+    "tips": "180 cm · Z 表情轮盘喵",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "gpt-6-astra",
+        "role": "建模与材质"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 1.0,
+    "width_scale": 1.0,
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "extra_animation": {
+      "neutral": "日常",
+      "happy": "开心",
+      "shy": "害羞",
+      "hurt": "委屈",
+      "pout": "气鼓鼓",
+      "surprised": "惊讶",
+      "sleepy": "困困",
+      "wave": "招手"
+    },
+    "free": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "arm": "animations/arm.animation.json",
+        "fp_arm": "animations/fp_arm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  }
+}

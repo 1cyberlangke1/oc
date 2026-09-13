@@ -1,0 +1,32 @@
+{
+  "id": "coco",
+  "name": "可可 · 奶茶小犬",
+  "measurements_cm": {
+    "height": 112,
+    "chest": 68,
+    "waist": 50,
+    "hips": 72
+  },
+  "hair_style": "wavy_bob",
+  "ears": "dog",
+  "tail": "curl",
+  "outfit": "cable_knit",
+  "eye_style": "puppy",
+  "ear_height_cm": 19,
+  "palette": {
+    "hair": "#e8c18e",
+    "hair_shadow": "#bb926e",
+    "hair_light": "#ffe6b5",
+    "skin": "#f8dfd1",
+    "eyes": "#946043",
+    "cloth": "#e9dcca",
+    "cloth_shadow": "#c2aa92",
+    "trim": "#f6ebd9",
+    "accent": "#b74c50"
+  },
+  "proportions": {
+    "crown_to_neck_fraction": 0.295,
+    "hip_height_fraction": 0.405,
+    "knee_height_fraction": 0.216
+  }
+}

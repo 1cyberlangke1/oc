@@ -1,0 +1,32 @@
+{
+  "id": "lulu",
+  "name": "露露 · 薄荷雪猫",
+  "measurements_cm": {
+    "height": 148,
+    "chest": 72,
+    "waist": 48,
+    "hips": 75
+  },
+  "hair_style": "hime",
+  "ears": "cat",
+  "tail": "fluffy_cat",
+  "outfit": "sailor",
+  "eye_style": "cool",
+  "ear_height_cm": 11,
+  "palette": {
+    "hair": "#e8edf3",
+    "hair_shadow": "#adbdd3",
+    "hair_light": "#fffaf4",
+    "skin": "#fae8e2",
+    "eyes": "#6bcac5",
+    "cloth": "#374a72",
+    "cloth_shadow": "#243454",
+    "trim": "#e9eef8",
+    "accent": "#94bedb"
+  },
+  "proportions": {
+    "crown_to_neck_fraction": 0.25,
+    "hip_height_fraction": 0.48,
+    "knee_height_fraction": 0.255
+  }
+}

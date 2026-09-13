@@ -58,3 +58,7 @@ task_plan.md
 EVAL_LOG.md
 .kaggle/
 .playwright-mcp/
+
+# character/ 下的角色资产全部纳入交付喵
+!/character/
+!/character/**

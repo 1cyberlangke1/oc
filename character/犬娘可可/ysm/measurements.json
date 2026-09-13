@@ -1,0 +1,48 @@
+{
+  "height_m": 1.12,
+  "height_units": 17.92,
+  "body_measurements_cm": {
+    "height": 112,
+    "chest": 68,
+    "waist": 50,
+    "hips": 72
+  },
+  "body_base_widths_m": {
+    "chest": 0.2553579834411627,
+    "waist": 0.18776322311850194,
+    "hips": 0.2703790412906428
+  },
+  "clothed_widths_m": {
+    "chest": 0.2816448346777529,
+    "waist": 0.2619296962503102,
+    "hips": 0.2966658925272331
+  },
+  "head_scale": 0.48610574712643684,
+  "ear_length_cm": 19,
+  "proportions": {
+    "crown_to_neck_fraction": 0.295,
+    "hip_height_fraction": 0.405,
+    "knee_height_fraction": 0.216
+  },
+  "cube_count": 157,
+  "bone_count": 81,
+  "texture_size": [
+    128,
+    64
+  ],
+  "measurement_note": "身高量至头顶，耳和头饰另计；围度反推身体截面，服装另留余量喵",
+  "verified_crown_height_m": 1.12,
+  "verified_floor_m": 0.0,
+  "geometry_bounds_m": {
+    "min": [
+      -0.28880614042282104,
+      -0.15798431634902954,
+      0.0
+    ],
+    "max": [
+      0.28880611062049866,
+      0.2516902685165405,
+      1.1200000047683716
+    ]
+  }
+}
