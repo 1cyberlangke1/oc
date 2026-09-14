@@ -9,7 +9,8 @@
     "authors": [
       {
         "name": "gpt-6-astra",
-        "role": "建模与材质"
+        "role": "建模与材质",
+        "avatar": "avatar/openai.png"
       }
     ]
   },
