@@ -26,10 +26,10 @@
     "upper_torso_scale_y": 0.975429
   },
   "leg_fit": {
-    "thigh_width_cm": 13.46,
-    "knee_width_cm": 9.15,
-    "calf_width_cm": 11.04,
-    "ankle_width_cm": 6.87
+    "thigh_width_cm": 6.78,
+    "knee_width_cm": 5.38,
+    "calf_width_cm": 5.38,
+    "ankle_width_cm": 5.38
   },
   "proportions": {
     "crown_to_neck_fraction": 0.25,
@@ -37,24 +37,10 @@
     "knee_height_fraction": 0.255
   },
   "cube_count": 357,
-  "bone_count": 88,
+  "bone_count": 98,
   "texture_size": [
-    255,
+    223,
     128
   ],
-  "measurement_note": "身高量至头壳发顶，耳、呆毛和头饰另计；围度反推身体截面，服装另留余量喵",
-  "verified_crown_height_m": 1.48,
-  "verified_floor_m": 0.0,
-  "geometry_bounds_m": {
-    "min": [
-      -0.3395192623138428,
-      -0.15820688009262085,
-      0.0
-    ],
-    "max": [
-      0.3395192623138428,
-      0.5108169913291931,
-      1.5190469026565552
-    ]
-  }
+  "measurement_note": "身高量至头壳发顶，耳、呆毛和头饰另计；围度反推身体截面，服装另留余量喵"
 }
